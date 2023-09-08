@@ -6,30 +6,37 @@
     <title>hng-task-1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap" rel="stylesheet">
+ 
 </head>
 <body>
-    <section calss="container">
-       <div class="first flex">
-           <div>
-            <img src="images/ai.jpg" alt="" data-testid="slackDisplayImage" alt="Ai_Okiki">
+    <section class="container ">
+        <div class="inner">
+            <div class="first flex">
+                <div>
+                 <img src="images/ai.jpg" class="primg" alt="" data-testid="slackDisplayImage" alt="Ai_Okiki">
+             </div>
+             <h3 class="name">Okiki Areo</h3>
+            </div> 
+              <div class="second">
+     <div class="username ic flex" data-testid="slackUserName">
+          <img src="./images/slack.svg"> <span> Slack Name:</span> Ai_Okiki
+                </div>
+                <div class="track ic" data-testid="myTrack">
+                 <img src="./images/code-solid.svg"> <span>Track:</span>Frontend
+                </div>
+                <div class="day ic" data-testid="currentDayOfTheWeek">
+                 <img src="./images/today.svg"> <span>Current Day:</span>Friday
+                 </div>
+                <div class="time ic" data-testid="currentUTCTime">
+                 <img src="./images/time.svg"> <span>UTC time (milliseconds):</span> <date class="utc">372367345435 </date> 
+                </div>
+                <div class="github ic flex" data-testid="githubURL">
+                   <a href="#"><img src="./images/github.svg"> Github Repo</a> 
+                </div>
+              </div>
+            
         </div>
-        <h3 class="name">Okiki Areo</h3>
-       </div> 
-           <div class="username" data-testid="slackUserName">
-<i></i> <span>Slack username:</span> Ai_Okiki
-           </div>
-           <div class="track" data-testid="myTrack">
-<i></i> <span>Track:</span> Frontend
-           </div>
-           <div class="day" data-testid="currentDayOfTheWeek">
-          <span>Current Day:</span>     Friday
-            </div>
-           <div class="time" data-testid="currentUTCTime">
-<span>Current time (milliseconds):</span> 372367345435s
-           </div>
-           <div class="github" data-testid="githubURL">
-              <a href="#"><i></i> Github Repo</a> 
-           </div>
     </section>
 </body>
 </html>
