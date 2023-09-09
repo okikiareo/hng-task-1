@@ -13,29 +13,34 @@
     <section class="container ">
         <div class="inner">
             <div class="first flex">
-                <div>
-                 <img src="images/ai.jpg" class="primg" alt="" data-testid="slackDisplayImage" alt="Ai_Okiki">
+                <div  data-testid="slackDisplayImage">
+                 <img src="images/ai.jpg" class="primg" alt="" alt="Ai_Okiki">
              </div>
              <h3 class="name">Okiki Areo</h3>
             </div> 
               <div class="second">
-     <div class="username ic flex" data-testid="slackUserName">
-          <img src="./images/slack.svg"> <span> Slack Name:</span> Ai_Okiki
+               <div class="username ic flex" >
+                   <img src="./images/slack.svg"> <span> Slack Name:</span>
+                   <P data-testid="slackUserName">Ai_Okiki</P> 
                 </div>
-                <div class="track ic" data-testid="myTrack">
-                 <img src="./images/code-solid.svg"> <span>Track:</span>Frontend
+                <div class="track ic flex" >
+                 <img src="./images/code-solid.svg"> <span>Track:</span>
+                 <p data-testid="myTrack">Frontend</p> 
                 </div>
-                <div class="day ic" data-testid="currentDayOfTheWeek">
-                 <img src="./images/today.svg"> <span>Current Day:</span><day class="today">Friday</day>  
+                <div class="day ic flex">
+                 <img src="./images/today.svg"> <span>Current Day:</span>
+                 <p class="today" data-testid="currentDayOfTheWeek">Friday</p>  
                  </div>
-                <div class="time ic" data-testid="currentUTCTime">
-                 <img src="./images/time.svg"> <span>UTC time (milliseconds):</span> <date class="utc">372367345435 </date> 
+                <div class="time ic ">
+                 <img src="./images/time.svg"> <span>UTC time (milliseconds):</span>
+                  <p class="utc" data-testid="currentUTCTime">372367345435 </p> 
                 </div>
-                <div class="github ic flex" data-testid="githubURL">
-                   <a href="https://github.com/okikiareo/hng-task-1" target="_blank"><img src="./images/github.svg"> Github Repo</a> 
+                <div class="github ic flex">
+                   <a href="https://github.com/okikiareo/hng-task-1" data-testid="githubURL" target="_blank" class="flex"><img src="./images/github.svg"> 
+                    <p>Github Repo</p></a> 
                 </div>
               </div>
-        </div>
+              </div>
     </section>
     <script src="app.js" ></script>
 </body>
